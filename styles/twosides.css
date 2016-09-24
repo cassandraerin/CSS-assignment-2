@@ -20,16 +20,27 @@ section > p {
 	text-align: center;
 }
 article {
-	background-color: #fff;
 	width: 600px;
-	padding: 10px;
+	padding: 10px 25px;
 	align: center;
 	margin: auto;
+	float: left;
+	width: 45%;
+}
+section {
+	Float: left;
+	Width: 100%;
+	padding: 10px 10px;
 }
 h2 {
 	text-align: center;
 	margin: 0;
 	padding: 15px;
+}
+div {
+	float: left;
+	width: 50%;
+	margin: 0;
 }
 img {
 	display: block;
@@ -48,6 +59,7 @@ footer {
 	text-align: center;
 	padding: 5px 50px;
 	color: #fff;
+	clear: both;
 }
 
 /* ----- suggested colors -----
